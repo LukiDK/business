@@ -3,3 +3,43 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #a3a3a3;
+  padding: 2rem 0;
+  display: flex;
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    max-width: 1080px;
+    margin: 0 auto;
+
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 2rem;
+      font-weight: 600;
+
+      border-radius: 15px 2px;
+      padding: 5px 10px;
+    }
+
+    a:hover {
+      transition: 0.4s;
+      color: blue;
+      background-color: white;
+      border-bottom: 2px solid blue;
+    }
+  }
+}
