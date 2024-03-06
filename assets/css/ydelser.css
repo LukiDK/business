@@ -11,6 +11,7 @@ html {
 nav {
   height: 80px;
   background-color: black;
+  align-content: center;
 }
 
 nav ul {
