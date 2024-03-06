@@ -11,7 +11,6 @@ html {
 nav {
   height: 80px;
   background-color: black;
-  align-content: center;
 }
 
 nav ul {
@@ -19,7 +18,7 @@ nav ul {
   height: 100%;
   display: flex;
   justify-content: flex-end;
-
+  align-items: center;
   list-style: none;
   gap: 24px;
   margin: 0 auto;
@@ -77,4 +76,5 @@ nav .btn-square-contact {
   text-decoration: none;
   padding: 15px 40px;
   text-align: center;
+  border-radius: 5px;
 }
