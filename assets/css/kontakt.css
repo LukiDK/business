@@ -4,23 +4,6 @@
     box-sizing: border-box;
   }
   
-  nav {
-      padding: 20px 20px;
-      margin-bottom: 20px;
-      background-color: #151d76;
-  }
-
-  .btn-square-contact {
-    display: inline-block;
-    padding: 10px 10px;
-    background-color: #ffffff;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 1px solid #333;
-  }
-  
-  .btn-square-contact:hover {
-    background-color: #23f0fa;
-    color: #000000;
+  .kontakt-os {
+   text-align: center;
   }
