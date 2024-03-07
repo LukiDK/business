@@ -25,6 +25,11 @@ body {
   }
 }
 
+#klovn a:hover {
+  background-color: #23f0fa;
+  color: #151d76;
+}
+
 h1 {
   margin-top: 50px;
   margin-bottom: 30px;
