@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 
-.header {
+.header { 
   background-image: url(/assets/img/Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,8 @@ html {
 }
 
 nav {
-  padding: 2rem 20px;
+  margin-bottom: 190px;
+  height: 60px;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav ul {
 
 nav ul li {
   position: relative;
+  margin-top: 36px;
 }
 
 nav a {
@@ -40,7 +42,6 @@ nav a {
   font-size: 1.6rem;
   font-weight: 600;
   color: white;
-  padding: 1rem;
 }
 
 .underline-hover::after {
