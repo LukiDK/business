@@ -11,3 +11,14 @@ nav {
    text-align: center;
    margin-top: 50px;
   }
+.kontakt-os h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.kontakter {
+    font-size: 16px;
+}
+.kontakter li {
+    margin-bottom: 5px;
+}
