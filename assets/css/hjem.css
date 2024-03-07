@@ -2,3 +2,7 @@ nav {
   height: 80px;
   background-color: #151d76;
 }
+
+body {
+  overflow: hidden;
+}
