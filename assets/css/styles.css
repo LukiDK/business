@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 
-.header { 
+.header {
   background-image: url(/assets/img/Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,15 +17,13 @@ html {
 }
 
 nav {
-  margin-bottom: 190px;
-  height: 60px;
+  padding: 2rem 2rem;
 }
 
 nav ul {
   max-width: 1080px;
   height: 100%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   list-style: none;
   gap: 24px;
@@ -34,7 +32,6 @@ nav ul {
 
 nav ul li {
   position: relative;
-  margin-top: 36px;
 }
 
 nav a {
