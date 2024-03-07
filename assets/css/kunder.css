@@ -10,7 +10,7 @@ html {
 
 nav {
   height: 80px;
-  background-color: #333;
+  background-color: #151d76;
 }
 
 nav ul {
@@ -77,4 +77,18 @@ nav .btn-square-contact {
   padding: 15px 40px;
   text-align: center;
   border-radius: 5px;
+}
+
+.kunder-container h1 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: #6999e1;
+}
+.kunder-card h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+.kunder-card imag {
 }
