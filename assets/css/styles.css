@@ -56,11 +56,11 @@ nav a {
 .underline-hover:hover::after {
   width: 100%;
   height: 2px;
-  background-color: #cf755a;
+  background-color: #6999e1;
 }
 
 .underline-hover a:hover {
-  color: #cf755a;
+  color: #6999e1;
 }
 
 .underline-hover li:hover span {
@@ -79,7 +79,7 @@ nav .btn-square-contact {
   font-size: 1.6rem;
   font-weight: 600px;
   display: inline-block;
-  background-color: #cf755a;
+  background-color: #6999e1;
   color: white;
   text-decoration: none;
   padding: 15px 40px;
