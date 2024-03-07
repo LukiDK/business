@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+body {
+    background-color: #151d76;
+}
+
   .kontakt-os {
    text-align: center;
   }
