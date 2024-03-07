@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 
-.header {
+.header { 
   background-image: url(/assets/img/Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,6 @@ html {
 nav {
   margin-bottom: 190px;
   height: 60px;
-  background-color: #151d76;
 }
 
 nav ul {
