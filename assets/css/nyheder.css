@@ -3,8 +3,17 @@ body {
 }
 
 nav {
-    padding: 0 20px;
-    margin-bottom: 2rem;
+    padding: 4rem 20px;
+    margin-bottom: 0;
+    height: 0;
+}
+
+nav ul li {
+  margin-top: 0;
+}
+
+nav a {
+  padding: 1rem;
 }
 
 .nyheder-container {
