@@ -1,19 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #333;
-}
-
-nav {
-    padding: 4rem 20px;
-    margin-bottom: 0;
-    height: 0;
-}
-
-nav ul li {
-  margin-top: 0;
-}
-
-nav a {
-  padding: 1rem;
 }
 
 .nyheder-container {
