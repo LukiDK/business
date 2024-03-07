@@ -79,6 +79,11 @@ nav a {
   display: block;
 }
 
+.btn-square-contact:hover {
+  background-color: #23f0fa;
+  color: black;
+}
+
 nav li:nth-child(1) {
   margin-right: auto;
 }
