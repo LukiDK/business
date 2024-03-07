@@ -8,11 +8,6 @@ html {
   font-size: 62.5%;
 }
 
-nav {
-  height: 80px;
-  background-color: #151d76;
-}
-
 nav ul {
   max-width: 1080px;
   height: 100%;
