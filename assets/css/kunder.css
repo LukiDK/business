@@ -84,9 +84,8 @@ nav .btn-square-contact {
   text-align: center;
   font-weight: bold;
   color: black;
-  margin-top: 10px;
-  margin-bottom: 10px;
   max-width: 1080px;
+  margin: 10px auto;
 }
 .kunder-grid {
   max-width: 1080px;
