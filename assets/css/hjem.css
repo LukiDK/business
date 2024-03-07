@@ -12,17 +12,17 @@ body {
   align-items: center;
   text-align: center;
   color: white;
+}
 
-  a {
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 1rem 3rem;
-    background-color: #6999e1;
-  }
+#klovn a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  background-color: #6999e1;
 }
 
 h1 {
