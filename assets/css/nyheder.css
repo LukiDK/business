@@ -9,7 +9,7 @@ body {
 }
 
 .nyheder-container {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 2rem;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .nyheder-card {
-  background-color: #fff;
+  background-color: #6899e1;
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
