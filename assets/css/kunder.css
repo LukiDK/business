@@ -83,12 +83,46 @@ nav .btn-square-contact {
   font-size: 32px;
   text-align: center;
   font-weight: bold;
-  color: #6999e1;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+.kunder-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.kunder-card {
+  background-color: #6899e1;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.33% -2rem);
+  margin-bottom: 2rem;
+  max-width: 30%;
+}
+
 .kunder-card h2 {
   font-size: 28px;
   font-weight: bold;
-  color: black;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.kunder-card imag {
+.kunder-card img {
+  width: 100%;
+  height: auto;
+  border-radius: none;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.kunder-card p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
 }

@@ -4,21 +4,26 @@
     box-sizing: border-box;
   }
   
-nav {
-    background-color: #151d76;
-}
   .kontakt-os {
    text-align: center;
    margin-top: 50px;
   }
+
 .kontakt-os h1 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
 .kontakter {
     font-size: 16px;
 }
+
 .kontakter li {
     margin-bottom: 5px;
 }
