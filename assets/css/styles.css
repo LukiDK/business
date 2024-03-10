@@ -103,3 +103,132 @@ nav .btn-square-contact {
   text-align: center;
   border-radius: 5px;
 }
+
+/*Footer*/
+footer {
+  background-color: #151d76;
+  padding: 20px 0 0 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer-section-1 {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-section-1:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.footer-container::after {
+  content: "";
+  border-left: 1px solid #ccc;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-section-1 h2 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.footer-section-1 p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: white;
+}
+
+.footer-section-1 nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-section-1 nav ul li {
+  align-items: center;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.footer-section-1 nav ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section-1 a:hover {
+  color: #23f0fa;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fa-square-facebook {
+  font-size: 4rem;
+  color: #23f0fa;
+}
+
+.fa-square-instagram {
+  font-size: 4rem;
+  color: #23f0fa;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
+
+/*footer-section-2*/
+.footer-section-2 {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.footer-section-2 ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-section-2 ul li {
+  margin: 32px;
+  list-style: none;
+}
+
+.footer-section-2 li:nth-child(1) {
+  margin-right: auto;
+}
+
+.footer-section-2 nav li:nth-child(2) {
+  margin-left: auto;
+}
+
+.footer-section-2 a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-section-2 .hover-effect:hover {
+  color: #23f0fa;
+}
