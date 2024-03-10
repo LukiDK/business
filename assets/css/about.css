@@ -9,13 +9,6 @@ html {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-}
-
 .about-content {
   max-width: 800px;
   margin: 20px auto;
