@@ -13,14 +13,40 @@ html {
   font-style: normal;
 }
 
-.header {
-  background-image: url(/assets/img/Header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  min-height: 768px;
+/*header*/
+header {
+  background-color: #eae8e8;
+  padding: 40px 0 60px 0;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 60px 0px 60px;
+}
+
+.info {
+  flex: 1;
+}
+
+.Webdev {
+  flex: 1;
+  text-align: right;
+}
+
+.info h2 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/*navigation*/
 nav {
   padding: 2rem 2rem;
   background-color: #151d76;
@@ -92,7 +118,7 @@ nav li:nth-child(7) {
   margin-left: auto;
 }
 
-nav .btn-square-contact {
+.btn-square-contact {
   font-size: 1.6rem;
   font-weight: 600px;
   display: inline-block;
@@ -229,6 +255,6 @@ footer img {
   text-decoration: none;
 }
 
-.footer-section-2 .hover-effect:hover {
+.hover-effect :hover {
   color: #23f0fa;
 }
