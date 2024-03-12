@@ -3,9 +3,6 @@ nav {
   background-color: #151d76;
 }
 
-body {
-}
-
 #klovn {
   display: flex;
   flex-direction: column;
@@ -43,22 +40,4 @@ p {
   font-size: x-large;
   font-weight: bold;
   margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 180px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  h1 {
-    font-size: 80px;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 15px black;
-    line-height: 100px;
-  }
-  p {
-    text-shadow: 0px 0px 15px black;
-  }
 }

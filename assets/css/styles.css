@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-}
-
 html {
   font-size: 62.5%;
   font-family: "realist", sans-serif;
@@ -21,18 +18,22 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 0px 60px 0px 60px;
+
+  flex-wrap: wrap;
+
+  max-width: 1080px;
+  gap: 4rem;
+  margin: 0 auto;
+}
+
+.header-content img {
+  max-width: 500px;
 }
 
 .info {
-  flex: 1;
-}
-
-.Webdev {
-  flex: 1;
-  text-align: right;
+  max-width: 500px;
 }
 
 .info h2 {
