@@ -16,6 +16,7 @@ html {
   max-width: 1080px;
   margin: 20px auto;
 }
+
 .kunder-grid {
   max-width: 1080px;
   display: flex;
@@ -44,6 +45,7 @@ html {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .kunder-card img {
   width: 100%;
   height: auto;

@@ -4,37 +4,155 @@
   box-sizing: border-box;
 }
 
-.kontakt-os {
+html {
+  font-size: 62.5%;
+}
+
+/*Kontakt-form*/
+section {
+  min-height: 100vh;
+  background: url(/assets/img/Computercode.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontakt-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontakt-info {
+  color: #fff;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.kontakt-info i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.kontakt-form {
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.kontakt-info,
+.kontakt-form {
+  flex: 1;
+}
+
+.kontakt-form h2 {
+  color: #fff;
   text-align: center;
-  background-color: #6899e1;
-  padding: 10px 10px;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 100px 100px;
-}
-
-.kontakt-os h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 35px;
+  text-transform: uppercase;
   margin-bottom: 30px;
 }
 
-li {
-  color: white;
+.kontakt-form .text-box {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
 }
 
-.kontakter {
-  font-size: 16px;
+.kontakt-form .text-box:first-child {
+  margin-right: 15px;
 }
 
-.kontakter li {
-  margin-bottom: 5px;
-  text-decoration: none;
-  list-style-type: none;
+.kontakt-form textarea {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.kontakt-form .send-btn {
+  float: right;
+  background: #2e94e3;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.kontakt-form .send-btn:hover {
+  background: #0582e3;
+}
+
+@media screen and (max-width: 950px) {
+  .kontakt-section {
+    flex-direction: column;
+  }
+
+  .kontakt-info,
+  .kontakt-form {
+    margin: 30px 50px;
+  }
+
+  .kontakt-form h2 {
+    font-size: 30px;
+  }
+
+  .kontakt-form .text-box {
+    width: 100%;
+  }
+}
+
+/*css for alert beskeder*/
+.alert-success {
+  z-index: 1;
+  background: #d4edda;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3ad66e;
+  border-radius: 4px;
+}
+
+.alert-error {
+  z-index: 1;
+  background: #fff3cd;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #ffa502;
+  border-radius: 4px;
 }

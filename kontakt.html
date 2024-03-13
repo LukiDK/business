@@ -10,10 +10,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>Kontakt</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/kontakt.css" />
+
+    />
   </head>
+
   <body>
     <nav>
       <ul class="nav-links">
@@ -33,22 +37,29 @@
       </ul>
     </nav>
 
-    <section class="kontakt-os">
-      <h1>Kontakt os</h1>
-      <section class="kontakt-info">
-        <p>
-          Har du brug for hjælp kan du kontakte os på mail, eller ringes til
-          vores kundeservice.
-        </p>
-      </section>
-      <section>
-        <ul class="kontakter">
-          <li>Email: webdev.company@email.dk</li>
-          <li>Tlf.: (+45) 71 75 63 31</li>
-          <li>Adresse: Vranderupvej 90, 6000 Kolding</li>
-        </ul>
-      </section>
-    </section>
+       
+
+    <!--Kontakt form-->
+    <section>
+    <div class="kontakt-section">
+      <div class="kontakt-info">
+        <div><i class="fas fa-map-marker-alt"></i>Vranderupvej 90, 6000 Kolding</div>
+        <div><i class="fas fa-envelope"></i>info@webdev.dk</div>
+        <div><i class="fas fa-phone"></i>+45 90 90 90 90</div>
+        <div><i class="fas fa-clock"></i>Man - Fre fra kl. 8.15 - 16.30</div>
+      </div>
+      <div class="kontakt-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required><textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+  </section>
+  
 
     <!--Footer-->
     <footer>
