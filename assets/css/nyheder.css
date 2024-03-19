@@ -2,81 +2,112 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: poppins;
 }
 
-body {
-  background-color: #333;
+ul {
+  list-style: none;
 }
 
-.nyheder-container {
-  background-color: #ffffff;
-  padding: 2rem;
+a {
+  text-decoration: none;
 }
 
-.nyheder {
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
-.nyheder h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 32px;
-}
-
-.nyheder-grid {
+/*Nyheder*/
+.nyhed {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.nyhed-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nyhed-heading span {
+  color: #f33c3c;
+  font-size: 1.5rem;
+}
+
+.nyhed-heading h3 {
+  font-size: 4.5rem;
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+.nyhed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-count: 3;
 }
 
-.nyheder-card {
-  background-color: #6899e1;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.33% - 2rem);
-  margin-bottom: 2rem;
+.nyhed-box {
+  width: 350px;
+  height: 500px;
+  background-color: #eeebeb;
+  border: 1px solid #eeebeb;
+  margin: 20px 20px;
 }
 
-.nyheder-card img {
+.nyhed-img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
-  margin-bottom: 1rem;
 }
 
-.nyheder-card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  font-size: 28px;
+.nyhed-img img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
 }
 
-.nyheder-card p {
-  margin-bottom: 1rem;
-  font-size: 16px;
+.nyhed-tekst {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-.btn-square {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+.nyhed-tekst .nyhed-titel {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
 }
 
-.btn-square:hover {
-  background-color: #555;
+.nyhed-tekst span {
+  color: #151d76;
+  font-size: 1.3rem;
 }
 
-.btn-square-contact {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #fff;
-  color: #333;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 1px solid #333;
+.nyhed-tekst p {
+  color: #9b9b9b;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+.nyhed-tekst a {
+  color: #0f0f0f;
+  font-size: 1.3rem;
+}
+.nyhed-tekst a:hover {
+  color: #151d76;
+  transition: all ease 0.3s;
 }
 
+.nyhed-tekst .nyhed-titel {
+  font-size: 2rem;
+  font-weight: bold;
+}

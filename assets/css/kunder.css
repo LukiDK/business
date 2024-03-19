@@ -8,57 +8,61 @@ html {
   font-size: 62.5%;
 }
 
-.kunder-container h1 {
-  font-size: 32px;
-  text-align: center;
+/*Kunder*/
+.kunder h1 {
+  font-size: 4.5rem;
   font-weight: bold;
-  color: black;
-  max-width: 1080px;
-  margin: 20px auto;
+  text-align: center;
+  margin: 30px 0 40px 0;
 }
 
-.kunder-grid {
-  max-width: 1080px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+.kunder h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.kunder-card {
-  background-color: #6899e1;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.33% -2rem);
-  margin-bottom: 2rem;
-  max-width: 30%;
+.kunde-container p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.kunder-card h2 {
-  font-size: 28px;
+.kunde-container:nth-child(odd) {
+  background-color: #151d76;
+  color: white;
+  flex-direction: row-reverse;
+}
+
+.kunde-container h2:nth-child(odd) {
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #ffffff;
-  text-decoration: none;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.kunder-card img {
-  width: 100%;
-  height: auto;
-  border-radius: none;
+.kunde-container {
+  display: flex;
+  gap: 100px;
+  padding: 40px 100px;
+  background-color: rgb(240, 238, 238);
+}
+
+.tekst-indhold {
+  display: flex;
+  flex-direction: column;
+}
+
+.kunde-container div {
+  display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  justify-content: center;
 }
 
-.kunder-card p {
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 10px;
+.stort-billede {
+  height: 400px;
+  width: 600px;
 }
 
 /*Logo-slider*/

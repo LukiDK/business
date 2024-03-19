@@ -32,31 +32,40 @@
         </li>
       </ul>
     </nav>
-    <section class="kunder-container">
-      <h1>Vores kunder</h1>
 
-      <div class="kunder-grid">
-        <div class="kunder-card">
+    <!--Kunder sektion 1-->
+    <section class="kunder">
+      <h1>Vores kundercases</h1>
+      <!--Box 1-->
+      <div class="kunde-container">
+        <div class="tekst-indhold">
           <h2>Legoland</h2>
-          <img src="/assets/img/Legoland.jpg" alt="" />
           <p>
-            "Vi ønsker at takke jer dybt for det fantastiske arbejde, I har
-            gjort med at designe og udvikle vores hjemmeside. jeres ekspertise
-            og kreative tilgang har virkelig forbedret vores online
-            tilstedeværelse på en måde, der overstiger vores forventninger.
-            Jeres evne til at forstå vores vision og omsætte den til en smukt
-            designet og brugervenlig hjemmeside har været imponerende. Vi
-            værdsætter jeres professionalisme og samarbejdsvilje, og ser frem
-            til at fortsætte vores samarbejde i fremtiden. Endnu engang, tak for
-            jeres enestående arbejde. Vi vil ikke tøve med at anbefale jer til
-            andre virksomheder, der søger en talentfuld webdesigner og
-            udvikler."
+            Vi ønsker at takke jer dybt for det fantastiske arbejde, I har gjort
+            med at designe og udvikle vores hjemmeside. jeres ekspertise og
+            kreative tilgang har virkelig forbedret vores online tilstedeværelse
+            på en måde, der overstiger vores forventninger. Jeres evne til at
+            forstå vores vision og omsætte den til en smukt designet og
+            brugervenlig hjemmeside har været imponerende.
           </p>
+          <div>
+            <a href="kunder.html" class="btn-square-contact">Se case</a>
+          </div>
         </div>
 
-        <div class="kunder-card">
+        <figure>
+          <img
+            class="stort-billede"
+            src="/assets/img/Kunder/Lego land.jpg"
+            alt="Legoland stort billede"
+          />
+        </figure>
+      </div>
+
+      <!--Box 2-->
+      <div class="kunde-container">
+        <div class="tekst-indhold">
           <h2>MyHome</h2>
-          <img src="/assets/img/MyHome.png" alt="" />
           <p>
             "Vi er simpelthen nødt til at sige tusind tak til det team, der har
             skabt vores fantastiske hjemmeside! Det er virkelig imponerende
@@ -67,19 +76,18 @@
             at besøge os personligt! Endnu engang tak til hele teamet bag vores
             hjemmeside. I har virkelig gjort et fantastisk stykke arbejde!"
           </p>
+          <div>
+            <a href="kunder.html" class="btn-square-contact">Se case</a>
+          </div>
         </div>
-        <div class="kunder-card">
-          <h2>Matas</h2>
-          <img src="/assets/img/Matas.webp" alt="" />
-          <p>
-            "Vi vil gerne udtrykke vores dybe taknemmelighed for det enestående
-            arbejde, I har udført med at oprette vores hjemmeside. Den er blevet
-            utroligt flot og brugervenlig, og vi er virkelig begejstrede for
-            resultatet. Tak for jeres professionalisme og engagement i hele
-            processen. Vi ser frem til at fortsætte vores samarbejde med jer i
-            fremtiden".
-          </p>
-        </div>
+
+        <figure>
+          <img
+            class="stort-billede"
+            src="/assets/img/Kunder/Myhome.jpg"
+            alt="My home billede"
+          />
+        </figure>
       </div>
     </section>
 
@@ -102,6 +110,61 @@
       var copy = document.querySelector(".logos-slide").cloneNode(true);
       document.querySelector(".logos").appendChild(copy);
     </script>
+
+    <!--Kunder sektion 2-->
+    <!--Box 3-->
+    <div class="kunde-container">
+      <div class="tekst-indhold">
+        <h2>Matas</h2>
+        <p>
+          "Vi vil gerne udtrykke vores dybe taknemmelighed for det enestående
+          arbejde, I har udført med at oprette vores hjemmeside. Den er blevet
+          utroligt flot og brugervenlig, og vi er virkelig begejstrede for
+          resultatet. Tak for jeres professionalisme og engagement i hele
+          processen. Vi ser frem til at fortsætte vores samarbejde med jer i
+          fremtiden".
+        </p>
+        <div>
+          <a href="kunder.html" class="btn-square-contact">Se case</a>
+        </div>
+      </div>
+
+      <figure>
+        <img
+          class="stort-billede"
+          src="/assets/img/Kunder/matas.jpg"
+          alt="Legoland stort billede"
+        />
+      </figure>
+    </div>
+
+    <!--Box 4-->
+    <div class="kunde-container">
+      <div class="tekst-indhold">
+        <h2>MyHome</h2>
+        <p>
+          "Vi er simpelthen nødt til at sige tusind tak til det team, der har
+          skabt vores fantastiske hjemmeside! Det er virkelig imponerende
+          arbejde, og vi er så glade for resultatet. Det er ikke bare en flot
+          hjemmeside – den er også super nem at bruge. Vi er sikre på, at I vil
+          elske at udforske den lige så meget som vi gør. Vi håber, I vil finde
+          alt, hvad I leder efter, og måske endda blive inspireret til at besøge
+          os personligt! Endnu engang tak til hele teamet bag vores hjemmeside.
+          I har virkelig gjort et fantastisk stykke arbejde!"
+        </p>
+        <div>
+          <a href="kunder.html" class="btn-square-contact">Se case</a>
+        </div>
+      </div>
+
+      <figure>
+        <img
+          class="stort-billede"
+          src="/assets/img/Kunder/Myhome.jpg"
+          alt="My home billede"
+        />
+      </figure>
+    </div>
 
     <!--Footer-->
     <footer>

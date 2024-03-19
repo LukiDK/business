@@ -9,9 +9,10 @@ html {
 }
 
 /*Kontakt-form*/
-section {
-  min-height: 100vh;
-  background: url(/assets/img/Computercode.jpg) no-repeat;
+.kontakt {
+  height: 650px;
+  background: url(/assets/img/kontakt-page.png) no-repeat;
+  background-position: bottom;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -30,12 +31,13 @@ section {
   max-width: 500px;
   line-height: 65px;
   padding-left: 50px;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .kontakt-info i {
   margin-right: 20px;
-  font-size: 25px;
+  font-size: 2.5rem;
+  color: #151d76;
 }
 
 .kontakt-form {
@@ -51,7 +53,7 @@ section {
 .kontakt-form h2 {
   color: #fff;
   text-align: center;
-  font-size: 35px;
+  font-size: 3.5rem;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -63,7 +65,7 @@ section {
   width: calc(50% - 10px);
   height: 50px;
   padding: 12px;
-  font-size: 15px;
+  font-size: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -80,7 +82,7 @@ section {
   border: none;
   width: 100%;
   padding: 12px;
-  font-size: 15px;
+  font-size: 1.5rem;
   min-height: 200px;
   max-height: 400px;
   resize: vertical;
@@ -92,12 +94,12 @@ section {
 
 .kontakt-form .send-btn {
   float: right;
-  background: #2e94e3;
+  background: #6999e1;
   color: #fff;
   border: none;
   width: 120px;
   height: 40px;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -133,26 +135,26 @@ section {
 /*css for alert beskeder*/
 .alert-success {
   z-index: 1;
-  background: #d4edda;
+  background: white;
   font-size: 18px;
   padding: 20px 40px;
   min-width: 420px;
   position: fixed;
   right: 0;
   top: 10px;
-  border-left: 8px solid #3ad66e;
+  border-left: 8px solid #151d76;
   border-radius: 4px;
 }
 
 .alert-error {
   z-index: 1;
-  background: #fff3cd;
+  background: white;
   font-size: 18px;
   padding: 20px 40px;
   min-width: 420px;
   position: fixed;
   right: 0;
   top: 10px;
-  border-left: 8px solid #ffa502;
+  border-left: 8px solid red;
   border-radius: 4px;
 }

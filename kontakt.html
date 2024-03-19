@@ -14,8 +14,6 @@
     <title>Kontakt</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/kontakt.css" />
-
-    />
   </head>
 
   <body>
@@ -37,29 +35,45 @@
       </ul>
     </nav>
 
-       
-
     <!--Kontakt form-->
-    <section>
-    <div class="kontakt-section">
-      <div class="kontakt-info">
-        <div><i class="fas fa-map-marker-alt"></i>Vranderupvej 90, 6000 Kolding</div>
-        <div><i class="fas fa-envelope"></i>info@webdev.dk</div>
-        <div><i class="fas fa-phone"></i>+45 90 90 90 90</div>
-        <div><i class="fas fa-clock"></i>Man - Fre fra kl. 8.15 - 16.30</div>
+    <section class="kontakt">
+      <div class="kontakt-section">
+        <div class="kontakt-info">
+          <div>
+            <i class="fas fa-map-marker-alt"></i>Vranderupvej 90, 6000 Kolding
+          </div>
+          <div><i class="fas fa-envelope"></i>info@webdev.dk</div>
+          <div><i class="fas fa-phone"></i>+45 90 90 90 90</div>
+          <div><i class="fas fa-clock"></i>Man - Fre fra kl. 8.15 - 16.30</div>
+        </div>
+        <div class="kontakt-form">
+          <h2>Skal vi samarbejde?</h2>
+          <form class="contact" action="" method="post">
+            <input
+              type="text"
+              name="name"
+              class="text-box"
+              placeholder="Navn"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="text-box"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Besked"
+              required
+            ></textarea>
+            <input type="submit" name="submit" class="send-btn" value="Send" />
+          </form>
+        </div>
       </div>
-      <div class="kontakt-form">
-        <h2>Kontakt Os</h2>
-        <form class="contact" action="" method="post">
-          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
-          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
-          <textarea name="message" rows="5" placeholder="Your Message" required><textarea>
-          <input type="submit" name="submit" class="send-btn" value="Send">
-        </form>
-      </div>
-    </div>
-  </section>
-  
+    </section>
 
     <!--Footer-->
     <footer>
@@ -94,7 +108,6 @@
           <div class="social-media">
             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-            >
           </div>
         </div>
       </div>
