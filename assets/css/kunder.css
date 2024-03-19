@@ -10,7 +10,7 @@ html {
 
 /*Kunder*/
 .kunder h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   margin: 30px 0 40px 0;
@@ -27,6 +27,7 @@ html {
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 .kunde-container:nth-child(odd) {
