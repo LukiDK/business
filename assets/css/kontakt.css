@@ -27,17 +27,18 @@ html {
 }
 
 .kontakt-info {
-  color: #fff;
+  color: black;
+  font-weight: 600;
   max-width: 500px;
   line-height: 65px;
-  padding-left: 50px;
+  padding-left: 150px;
   font-size: 1.8rem;
 }
 
 .kontakt-info i {
   margin-right: 20px;
   font-size: 2.5rem;
-  color: #151d76;
+  color: #0582e3;
 }
 
 .kontakt-form {
@@ -113,27 +114,39 @@ html {
   background: #0582e3;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 876px) {
   .kontakt-section {
-    flex-direction: column;
-  }
-
-  .kontakt-form {
-    margin: 0 50px;
+    flex-direction: column-reverse;
   }
 
   .kontakt-info {
-    margin-top: 80px;
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    margin-right: 150px;
+  }
+
+  .kontakt-info div {
+    line-height: 1.5;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+  }
+
+  .kontakt-form {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 20px;
   }
 
   .kontakt-form h2 {
     font-size: 2.5rem;
     text-align: center;
+    margin-top: 40px;
   }
 
   .kontakt-form .text-box {
-    width: 100%;
+    width: calc(100% - 24px);
+    margin-right: 0;
   }
 }
 

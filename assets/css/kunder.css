@@ -98,17 +98,54 @@ html {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1125px) {
   .kunde-container {
     flex-direction: column;
-  }
-
-  .kunde-container img {
-    margin: 0 auto;
-    align-items: center;
+    padding: 40px 20px;
   }
 
   .kunde-container:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+
+  .stort-billede {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .kunde-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .kunde-container p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .tekst-indhold {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .stort-billede {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+
+  .kunde-container div {
+    flex-direction: column;
+  }
+
+  .btn-square-contact {
+    padding: 10px 20px;
+    font-size: 1.3rem;
   }
 }
