@@ -130,7 +130,7 @@ img {
   font-size: 1.7rem;
   color: white;
   margin-bottom: 26px;
-  line-height: 2rem;
+  line-height: 1.5;
 }
 
 .service section {
@@ -171,4 +171,34 @@ img {
 
 #Digital-strategi h2 {
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  /*Page-5-Tablet*/
+  .ydelser-section {
+    flex-direction: column;
+  }
+
+  .ydelser-section img {
+    height: 80%;
+  }
+
+  .kompetencer-knap {
+    flex-direction: column;
+  }
+
+  .service {
+    flex-direction: column;
+  }
+
+  .service img {
+    width: 100%;
+    align-items: center;
+  }
+
+  .service p,
+  h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
